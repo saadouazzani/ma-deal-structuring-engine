@@ -63,3 +63,52 @@ ma-deal-structuring-engine/
 ├── README.md                  # Institutional documentation
 ├── app.py                     # Streamlit multi-tab Web Application
 └── requirements.txt           # Python dependencies
+🚀 Quick Start Guide
+Prerequisites
+Python 3.10 or higher
+
+Git
+
+Installation & Execution
+Bash
+# 1. Clone Repository
+git clone [https://github.com/saadouazzani/ma-deal-structuring-engine.git](https://github.com/saadouazzani/ma-deal-structuring-engine.git)
+cd ma-deal-structuring-engine
+
+# 2. Create and Activate Virtual Environment
+python -m venv venv
+
+# Windows CMD:
+call venv\Scripts\activate.bat
+
+# macOS/Linux:
+source venv/bin/activate
+
+# 3. Install Dependencies
+pip install -r requirements.txt
+
+# 4. Launch Interactive Application
+streamlit run app.py
+Access the application in your web browser at http://localhost:8501.
+
+👤 Author
+Saad Ouazzani
+
+Information Systems Engineering | Financial Engineering & Data Science
+
+GitHub Profile
+
+
+---
+
+### Run in CMD to Save and Push
+
+```cmd
+cd %USERPROFILE%\Github_Portfolio\ma-deal-structuring-engine
+
+:: 1. Save README
+git add README.md
+git commit -m "Docs: Add institutional README with mathematical formulas and architecture"
+
+:: 2. Push to GitHub
+git push origin main
